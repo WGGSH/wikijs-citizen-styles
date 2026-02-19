@@ -3,9 +3,10 @@
     'Inter', 'MiSans Latin', 'Helvetica Neue', 'Helvetica', 'Roboto',
     'BlinkMacSystemFont', 'MiSans', 'HarmonyOS Sans SC', 'PingFang SC',
     'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
-  --color-primary-override__h: 200;
-  --color-primary-override__s: 55%;
-  --color-primary-override__l: 48%;
+  // アクセントカラー(HSL指定)
+  --color-primary-override__h: 266;
+  --color-primary-override__s: 100%;
+  --color-primary-override__l: 82%;
   --color-primary-override: hsl(
     var(--color-primary-override__h),
     var(--color-primary-override__s),
