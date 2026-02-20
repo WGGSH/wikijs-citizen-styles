@@ -100,6 +100,7 @@ body,
   .v-application .blue.darken-2 {
     background-color: var(--color-primary-override) !important;
     border-color: var(--color-primary-override) !important;
+    color: var(--color-surface-0) !important;
   }
 
   .v-application a,
@@ -181,6 +182,7 @@ body,
 
   .v-btn:before {
     background-color: var(--color-primary-override) !important;
+    color: var(--color-surface-0) !important;
   }
 
   .v-application .v-footer .caption {
@@ -271,7 +273,7 @@ body,
 #root #app.theme--dark {
   // ダークモード用背景色
   --color-surface-0: #172233; // メインエリア背景、ヘッダー背景 base
-  --color-surface-1: #a2538; // コード背景、ナビゲーション、カード・リスト背景 mantle
+  --color-surface-1: #1a2538; // コード背景、ナビゲーション、カード・リスト背景 mantle
   --color-surface-2: #121926; // カードの影、水平線、入力フィールド背景 crust
   --color-surface-3: #415a7a; // ナビゲーション・ヘッダー・カードのボーダー surface 2
   --color-surface-4: #6a7494; // スクロールバー overlay0
@@ -289,6 +291,7 @@ body,
 
   button.theme--dark.v-btn.v-btn--depressed.v-size--default.grey.darken-4 {
     background-color: var(--color-primary-override) !important;
+    color: var(--color-surface-0) !important;
   }
 
   .v-toolbar__content .theme--dark.v-icon {
